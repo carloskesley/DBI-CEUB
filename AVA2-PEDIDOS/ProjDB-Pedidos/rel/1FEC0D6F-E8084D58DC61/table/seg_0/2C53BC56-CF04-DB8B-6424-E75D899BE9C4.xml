@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C53BC56-CF04-DB8B-6424-E75D899BE9C4" name="Cliente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>41F6214A-49F1-39EA-BBAC-B4DE7787E483</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCliente" id="6409D597-E641-F32E-F189-ABB723014AA2">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>0DD38B80-708A-A0BE-8801-BDB008C51E24</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="59151749-7B67-F914-B99D-A233CE21FDD1">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>D440EC8C-FC32-3634-51F3-BB58F1EAB276</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vendedor_matriculaVendedor" id="8EE533EF-65A4-C6ED-04DA-E63641F38B86">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>EE0F7BC2-68A8-29A1-FAA0-F6896E99D30C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="361DF4F6-DCCC-6BEE-C74B-0C31C35745D1" referredColumn="1515B604-B815-491F-47F6-A0663448DB72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D2C9FC6-2740-24AD-9D5A-8ADA8709CAB7" name="Cliente_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>57285B16-C3F6-AB8E-9F8C-D410E3D5867B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59151749-7B67-F914-B99D-A233CE21FDD1"/>
+<colUsage columnID="6409D597-E641-F32E-F189-ABB723014AA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C76E55C4-99DA-8187-DA48-D847FFC42148" name="Cliente_vendedor_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>CBC560F8-F6C1-0B56-C906-74B78914CA38</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EE533EF-65A4-C6ED-04DA-E63641F38B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

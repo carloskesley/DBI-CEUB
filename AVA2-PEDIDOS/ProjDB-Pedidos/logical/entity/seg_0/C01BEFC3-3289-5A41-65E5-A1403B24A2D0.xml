@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C01BEFC3-3289-5A41-65E5-A1403B24A2D0" name="vendedor">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:52:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matriculaVendedor" id="463C65C4-3854-C40A-27AA-F6C63396E4C8">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:53:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeVendedor" id="B2D6CC96-8236-9D1F-C2C0-C9B6CAA403EC">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:53:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3952E621-F503-771B-473C-6ABBF49ED76D" name="vendedor PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:24:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>463C65C4-3854-C40A-27AA-F6C63396E4C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

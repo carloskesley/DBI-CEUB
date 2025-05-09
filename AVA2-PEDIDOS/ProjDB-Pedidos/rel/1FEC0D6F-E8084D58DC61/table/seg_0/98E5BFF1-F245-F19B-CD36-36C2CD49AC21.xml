@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98E5BFF1-F245-F19B-CD36-36C2CD49AC21" name="vendedor">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>C01BEFC3-3289-5A41-65E5-A1403B24A2D0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matriculaVendedor" id="1515B604-B815-491F-47F6-A0663448DB72">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>463C65C4-3854-C40A-27AA-F6C63396E4C8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeVendedor" id="8155E39A-6B99-6C86-A8FC-68407C8F415A">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>B2D6CC96-8236-9D1F-C2C0-C9B6CAA403EC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16EF7AC0-8D9F-5DC5-974D-572A7363A4B7" name="vendedor_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>3952E621-F503-771B-473C-6ABBF49ED76D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1515B604-B815-491F-47F6-A0663448DB72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

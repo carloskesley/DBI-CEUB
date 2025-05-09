@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A25886BC-7345-1FDD-98A5-0C8739A938CC" name="Pedido">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>3771B041-0C4E-37B9-02F0-B90E8570F0C2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoPedido" id="F200DB75-638F-CBB9-28AD-9A625667C596">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>295E8C15-5DF4-2876-715A-3707575F99C2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPedido" id="2BB4DA6A-75E3-9C59-D4A8-6A23D19AD044">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>C05FE088-67D3-CC34-50CB-58A9261B2EEF</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaPedido" id="161D1679-38E1-A726-810B-67CF7912C504">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>C3F2A80D-F329-D678-1BB7-60CFE47E9F3D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statusPedido_codigoPedido" id="5B843B8B-2F1C-96CB-BFBC-AA9D2DB4B971">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>E6649AF4-9479-F932-9901-3B5DC5154DF1</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vendedor_matriculaVendedor" id="B2501035-D1DA-A886-9C11-61418A3358B3">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:33:30 UTC</createdTime>
+<generatorID>1B3EEB35-408D-854E-D852-ADCBB062DA46</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4963D78-62A1-6258-CD2B-8D04E9256F0C" referredColumn="1515B604-B815-491F-47F6-A0663448DB72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72888B1A-4E50-E549-D4E3-F1C588E2908D" name="Pedido_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>665D83E9-5378-84F4-19C1-FC229EA9F697</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F200DB75-638F-CBB9-28AD-9A625667C596"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43422EB3-799D-DDDB-3EB2-7BAA966F7B1D" name="Pedido__IDX">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>14F2C23D-A2C0-DCD4-67F1-D698A258C9CB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5B843B8B-2F1C-96CB-BFBC-AA9D2DB4B971"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6A46927-740C-BBFF-7C51-F70AFC837C12" name="Pedido_vendedor_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:33:30 UTC</createdTime>
+<generatorID>45CD8D91-967D-8D59-833B-76B448E172A2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2501035-D1DA-A886-9C11-61418A3358B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

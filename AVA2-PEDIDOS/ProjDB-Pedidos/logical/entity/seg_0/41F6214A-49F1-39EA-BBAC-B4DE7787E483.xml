@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41F6214A-49F1-39EA-BBAC-B4DE7787E483" name="Cliente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:43:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeCliente" id="0DD38B80-708A-A0BE-8801-BDB008C51E24">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:44:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="D440EC8C-FC32-3634-51F3-BB58F1EAB276">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:44:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor" id="EE0F7BC2-68A8-29A1-FAA0-F6896E99D30C">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:24:51 UTC</createdTime>
+<generatorID>CBC560F8-F6C1-0B56-C906-74B78914CA38</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<referedAttribute>463C65C4-3854-C40A-27AA-F6C63396E4C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57285B16-C3F6-AB8E-9F8C-D410E3D5867B" name="Cliente PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:46:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D440EC8C-FC32-3634-51F3-BB58F1EAB276</attributeRef>
+<attributeRef>0DD38B80-708A-A0BE-8801-BDB008C51E24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="974D74E9-8AE6-8492-6C7F-CDD9A183EA10" name="ItemProduto">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>21823DEF-0F6B-0CF5-43A6-23DFA3588997</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoItemProduto" id="B52EAC95-ED07-0899-A291-7EDAD40D81E4">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>ACDA3324-F377-43D2-09D6-27863C3001B5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorUnitarioProduto" id="56EE2EF0-F035-C643-279A-15E8757D9ABF">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>13DF3AD3-C1E3-664D-1C64-8A9E9683593E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorTotalProduto" id="F51C8AAB-A2B6-A6E7-DFE6-A67E6BA3746C">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>48820BA2-C6B7-1127-3F38-B37A056DF056</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="DAB76A54-9EA2-6194-ED87-76EB6A4EFB48">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>50E87BFD-DEEA-E65B-3DCD-EF46F466AED7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedido_codigoPedido" id="58B31D61-0E6E-DCA5-206B-D32009946A2F">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>C5A5AD46-04E1-1CB6-C6CF-9542DBA6879F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E41BA2A7-A222-A616-9843-CC1211D17EF1" referredColumn="F200DB75-638F-CBB9-28AD-9A625667C596"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AE5826C-7498-CF11-2F60-62B2FBB3B537" name="ItemProduto_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>F4D4E116-D16D-86C5-7E85-56284A2263FE</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B52EAC95-ED07-0899-A291-7EDAD40D81E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44F88BA8-FFA2-E537-4846-278E27BCC381" name="ItemProduto_Pedido_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>C2A2F3AF-5DAE-34C1-69BA-596A1EED2F99</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58B31D61-0E6E-DCA5-206B-D32009946A2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

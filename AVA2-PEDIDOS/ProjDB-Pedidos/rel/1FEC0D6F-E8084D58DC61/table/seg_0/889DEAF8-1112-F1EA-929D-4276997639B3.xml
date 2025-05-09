@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="889DEAF8-1112-F1EA-929D-4276997639B3" name="EnderecoCliente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>0FDCDAFD-1DC6-C666-AB1D-D36985D904F0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="9AE6FEE3-4F05-44BD-74DC-77E26895B54C">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>8E039D70-4F42-DA77-6919-D401508283AE</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnderecoCliente" id="C5DFE832-3CC2-8F76-D260-0822BBF02F1F">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>519FCC6F-46BF-A130-9476-1238A5FF088F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroCliente" id="AB224B6F-C120-778F-E957-CBCD3EFA4599">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>2AEC479E-4716-3836-5787-ADF5738D72F1</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufCliente" id="8A76A1D2-760A-317D-CE46-DD9C709E3B50">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>F8C989BC-7BFB-57C8-DF63-EE2CE45F2206</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepCliente" id="B95FEFBB-8C20-C0F0-5101-DA651D38CFC6">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>7F0E431F-15AA-9EC4-E55F-AA29A7061BFE</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cpfCliente" id="4AB26738-3878-8BCA-8AEF-C3126BCF7814">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>786C0160-6159-4D65-9631-686D34B4F63A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="830108E3-5B6A-FC34-78A9-5C3EC7FF9F24" referredColumn="59151749-7B67-F914-B99D-A233CE21FDD1"/>
+</associations>
+</Column>
+<Column name="Cliente_nomeCliente" id="984210AF-F108-6984-6A1F-ECC854BC9071">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>E0AC38AB-F0B8-B8B8-F358-57F29E248635</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="830108E3-5B6A-FC34-78A9-5C3EC7FF9F24" referredColumn="6409D597-E641-F32E-F189-ABB723014AA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="174B1287-CA55-B8DF-1FE9-CA7F9A1CC3BC" name="EnderecoCliente_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:14 UTC</createdTime>
+<generatorID>1824E6C7-F8EF-3413-9152-B46122BFBD33</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AE6FEE3-4F05-44BD-74DC-77E26895B54C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E40C1153-767C-1549-3B97-D72B7865B901" name="EnderecoCliente_Cliente_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>E8546F8C-C421-F110-AF17-2A16BA462301</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AB26738-3878-8BCA-8AEF-C3126BCF7814"/>
+<colUsage columnID="984210AF-F108-6984-6A1F-ECC854BC9071"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F73A1A9-1CED-7FD0-567A-1C2E0CA4DA78" name="TelefoneCliente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>9CC6BBB1-DBCA-828E-64D7-67A275D0593F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CpfCliente" id="8E7F10A0-9700-AAB0-2BD7-31C7859AE822">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>888EF0EE-6E67-3C43-2F5B-7EE4AE9F53B9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="604C0037-45DA-A6D0-FBEF-0C5C181BBB6F">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>F57B7766-6FE6-3209-B772-8F05C54F25E9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneCliente" id="4D102026-010D-CC39-1FF7-C38393B179C4">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>620E99B9-02A7-55D0-70BA-EA956E5CDF61</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cpfCliente" id="3789714F-ED48-50FB-864F-E57808F1BD4A">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>46AF78B2-E1D8-5ED7-758C-476F3469094D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2D8740A-6073-26D7-9C1E-0C6DB9E7CB6A" referredColumn="59151749-7B67-F914-B99D-A233CE21FDD1"/>
+</associations>
+</Column>
+<Column name="Cliente_nomeCliente" id="E1B1C9C9-66DA-508B-2169-DC6C6D9BFE1A">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>1B49726E-289F-194A-A220-18B070B0750B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2D8740A-6073-26D7-9C1E-0C6DB9E7CB6A" referredColumn="6409D597-E641-F32E-F189-ABB723014AA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0ACD2E1F-85B0-D2C8-ECB7-3BF2E3F17FAF" name="TelefoneCliente_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>1926A775-59D9-564A-EE4E-B2886F469322</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E7F10A0-9700-AAB0-2BD7-31C7859AE822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB361246-E8DF-CC77-BAC8-6E06A38C684B" name="TelefoneCliente_Cliente_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:15 UTC</createdTime>
+<generatorID>6B2C67A3-0B7A-DD98-C9E0-9581315FD858</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3789714F-ED48-50FB-864F-E57808F1BD4A"/>
+<colUsage columnID="E1B1C9C9-66DA-508B-2169-DC6C6D9BFE1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FDCDAFD-1DC6-C666-AB1D-D36985D904F0" name="EnderecoCliente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:56:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="8E039D70-4F42-DA77-6919-D401508283AE">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:00:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EnderecoCliente" id="519FCC6F-46BF-A130-9476-1238A5FF088F">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:57:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroCliente" id="2AEC479E-4716-3836-5787-ADF5738D72F1">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:57:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufCliente" id="F8C989BC-7BFB-57C8-DF63-EE2CE45F2206">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:58:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepCliente" id="7F0E431F-15AA-9EC4-E55F-AA29A7061BFE">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:58:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="786C0160-6159-4D65-9631-686D34B4F63A">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:04:23 UTC</createdTime>
+<generatorID>E8546F8C-C421-F110-AF17-2A16BA462301</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<referedAttribute>D440EC8C-FC32-3634-51F3-BB58F1EAB276</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="E0AC38AB-F0B8-B8B8-F358-57F29E248635">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:04:23 UTC</createdTime>
+<generatorID>E8546F8C-C421-F110-AF17-2A16BA462301</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<referedAttribute>0DD38B80-708A-A0BE-8801-BDB008C51E24</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1824E6C7-F8EF-3413-9152-B46122BFBD33" name="EnderecoCliente PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:01:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E039D70-4F42-DA77-6919-D401508283AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

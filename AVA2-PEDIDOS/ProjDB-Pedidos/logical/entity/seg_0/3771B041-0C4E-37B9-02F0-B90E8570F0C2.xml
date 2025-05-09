@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3771B041-0C4E-37B9-02F0-B90E8570F0C2" name="Pedido">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:47:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoPedido" id="295E8C15-5DF4-2876-715A-3707575F99C2">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-08 23:48:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPedido" id="C05FE088-67D3-CC34-50CB-58A9261B2EEF">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:05:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaPedido" id="C3F2A80D-F329-D678-1BB7-60CFE47E9F3D">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:06:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoPedido1" id="E6649AF4-9479-F932-9901-3B5DC5154DF1">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:27:13 UTC</createdTime>
+<generatorID>14F2C23D-A2C0-DCD4-67F1-D698A258C9CB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<referedAttribute>2DFCAA23-D4E3-0D9A-0FE4-60D1B77F0366</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor" id="1B3EEB35-408D-854E-D852-ADCBB062DA46">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:32:38 UTC</createdTime>
+<generatorID>45CD8D91-967D-8D59-833B-76B448E172A2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<referedAttribute>463C65C4-3854-C40A-27AA-F6C63396E4C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="665D83E9-5378-84F4-19C1-FC229EA9F697" name="Pedido PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:01:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>295E8C15-5DF4-2876-715A-3707575F99C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

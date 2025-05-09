@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCF051A1-2AFA-8E9C-4234-F495770F3473" name="statusPedido">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:18:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoPedido" id="2DFCAA23-D4E3-0D9A-0FE4-60D1B77F0366">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:22:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" processamentoStatusPedido" id="EB95214C-C01B-9636-2B2B-D3DED3950063">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:21:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enviadoStatusPedido" id="451649D2-9649-C738-BAF3-1F9EE488CE90">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:21:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="entregueStatusPedidos" id="31BF6C96-ABB3-8765-4409-C474D08CF8D5">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:22:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" canceladoStatusPedido" id="E763E3EA-B0B9-98BB-1BB3-68073F4F4A24">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:23:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoPedido1" id="3A0AF6CE-47CA-F699-5F29-822E54C03C1A">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:27:10 UTC</createdTime>
+<generatorID>14F2C23D-A2C0-DCD4-67F1-D698A258C9CB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="true"/>
+</engineerTo>
+<referedAttribute>295E8C15-5DF4-2876-715A-3707575F99C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="590A60E3-F2DC-B1D7-DFFA-4B1A4105193C" name="statusPedido PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-09 00:22:22 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1FEC0D6F-ACA4-C35A-5CCC-E8084D58DC61" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DFCAA23-D4E3-0D9A-0FE4-60D1B77F0366</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

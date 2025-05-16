@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BF4B729-3997-6EEC-71ED-562273E43CC5" name="TelefonesTitular">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:13:54 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="68AFC0D7-C099-12F5-EA02-0D0925FAADB4">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:14:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneComercialtitular" id="48FADF86-4F8B-45BC-410D-01193CDDFFB4">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:16:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneResidencialTitular" id="446DB9F1-9A10-171B-69E3-A0A68210D03B">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:31:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="B93584B6-735F-0C48-09B4-C03C78398077">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:45:00 UTC</createdTime>
+<generatorID>7BAB7577-6860-672E-5DF9-3B099D7BE7E2</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<referedAttribute>A46D4879-381D-6327-AC01-5C49A176400D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="81B5ACD9-8F24-46C0-ED9C-BC4D30A84574">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:45:00 UTC</createdTime>
+<generatorID>7BAB7577-6860-672E-5DF9-3B099D7BE7E2</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<referedAttribute>244785A7-B4BC-B490-7FD0-58A459DD4404</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="616A3B3F-8C27-74F2-F7BA-E25180E42A75" name="Telefones PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:15:38 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68AFC0D7-C099-12F5-EA02-0D0925FAADB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

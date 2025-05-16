@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04CACF27-A209-F0D9-4AFD-55CF8734B057" containerWithKeyObject="A73DAB99-5EFB-D8C8-52BC-BE7D5BB90973" localFKIndex="9DAB4BCD-9374-DEF3-29D4-8ADBFA82271F" name="GrauParentescoDependente_Dependente_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>2F1BB618-9601-54D2-EDD7-385420776B65</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referredTableLongName>Dependente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC78D10D-1945-59B2-BCDB-E3572DD91ADD</referredTableID>
+<keyObject>A5337DDE-0126-D07E-BC82-9EE9172C31E1</keyObject>
+<referredKeyID>A5337DDE-0126-D07E-BC82-9EE9172C31E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpfDependente,nomeDependente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

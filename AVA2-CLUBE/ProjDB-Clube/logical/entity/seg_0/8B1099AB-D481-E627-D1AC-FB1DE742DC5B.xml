@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B1099AB-D481-E627-D1AC-FB1DE742DC5B" name="EnderecoTitular">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:14:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="283A4CA7-0D78-C1C2-514B-38772011E4AE">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:16:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoTitular" id="F7E74860-83D3-7628-07CB-5D1F7AC77145">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:17:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroTitular" id="9D70EFC3-7B63-146B-BB48-E0387B897E03">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:17:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CepTitular" id="434E6FDD-1F5B-CEE9-9D7D-AEE760FD7EF1">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:36:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufTitular" id="3CD8C897-31C5-327D-0914-71C1CDED2A84">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:36:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="ACA10E7A-7054-25A2-4EA7-8FBCF5C0718D">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:50:48 UTC</createdTime>
+<generatorID>4FD855D4-111E-7186-577A-D524616DF9E8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<referedAttribute>A46D4879-381D-6327-AC01-5C49A176400D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="30B3935F-7D2F-AE48-EFD6-10E47706F0A7">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:50:48 UTC</createdTime>
+<generatorID>4FD855D4-111E-7186-577A-D524616DF9E8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<referedAttribute>244785A7-B4BC-B490-7FD0-58A459DD4404</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2164004-6AFF-4C78-6A71-7A9E63EECEC1" name="Endereço PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:16:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>283A4CA7-0D78-C1C2-514B-38772011E4AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

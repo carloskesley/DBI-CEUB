@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09869075-9603-44E4-6320-9B371C1F52B0" name="EnderecoDependente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>7C10DF54-44A1-BC4F-179E-7007157BD67C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfDependente" id="7278B8CD-ED57-63CD-0994-D87ECD61EFC3">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>884A3829-5B19-245A-1AB1-9CCF93B78C7D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoDependente" id="7E9EC000-E533-DFC6-E61B-957B5041E58A">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>E0884A39-3219-FCC8-553B-137F9C990678</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroDependente" id="45A28BEF-A593-5059-8DCA-80F0758D4642">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>F80553CA-954F-D7D7-0CA8-75948BA8AEC7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepDependente" id="61C2AD9F-6671-AC63-1E9B-989D9EEC7EEB">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>DD20B157-2E2C-53AC-B043-59F7D9A23AF5</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufDependente" id="EBFC8D11-07AC-910D-472D-008E13B06354">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>51C4C82B-16DB-2DB1-426D-DAC9CE3C6D0F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dependente_cpfDependente" id="17B7BEC9-428B-83CC-DDE6-42FD859AEAE4">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>FCC0A54C-EA43-CE7F-2ABF-0BD442F6DCD6</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA10742-8232-F6C8-D76B-01DA8227715C" referredColumn="D2C359CB-C941-1A51-5562-9EC1858FBF8C"/>
+</associations>
+</Column>
+<Column name="Dependente_nomeDependente" id="8ACD03A2-57EE-4D71-BA75-B28FD7A83990">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>5609CAAB-9C69-B0BE-E89C-9F710F247DC9</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA10742-8232-F6C8-D76B-01DA8227715C" referredColumn="226EF2C7-ED93-CB19-5112-1879CF90B2F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B9E8244-D3C1-083E-260B-4FDC11ECE43C" name="EnderecoDependente_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>9AF0239F-9FCC-9606-9EC2-97C78935BBDB</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7278B8CD-ED57-63CD-0994-D87ECD61EFC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="754EA779-EA20-B208-C691-29F47B634E57" name="EnderecoDependente__IDX">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>452ED12D-DFF1-6332-5026-1225F1BE7A79</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="17B7BEC9-428B-83CC-DDE6-42FD859AEAE4"/>
+<colUsage columnID="8ACD03A2-57EE-4D71-BA75-B28FD7A83990"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="959976AA-0AAD-C31D-C60B-62C7FA5E32B8" name="EnderecoDependente_Dependente_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>452ED12D-DFF1-6332-5026-1225F1BE7A79</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17B7BEC9-428B-83CC-DDE6-42FD859AEAE4"/>
+<colUsage columnID="8ACD03A2-57EE-4D71-BA75-B28FD7A83990"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

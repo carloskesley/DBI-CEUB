@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="973B6D19-1197-CCEE-B9A1-F0D44ABA1F29" name="MensalidadeTitular">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>DCC31269-3E38-4CD4-B168-74FCB0790DCB</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfTitular" id="D030EF02-13EB-9DDD-0897-ED39EE8A1425">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>38C5C61A-0543-5C87-2D48-87B74BAF7999</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorMensalidade" id="418192A2-79DB-4599-3613-14F56220EEE9">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>900BE6DA-8EE9-02B9-8F6C-0C438B4DF8EC</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vencimentoMensalidade" id="FCFDABF5-E4CC-592B-E91D-0C83D314FD40">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>BBCFE930-1843-F7E9-E74A-4A66D2781F8A</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPagamento" id="9C3A66D4-0E0D-DBE6-B77D-11C0A62FF94F">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>818539D9-CACC-0312-2899-4796E6CE8AE8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referencia" id="FD1B82BA-A945-B2A9-B63D-2C0252BABA0E">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>637C5B10-CD17-10C4-5048-AD66899EEB94</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titular_cpfTitular" id="B66CA43C-D286-71E6-0C0A-D1E6EADAC94A">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>0635B69E-666E-1C20-70D0-D43DE22FBFB8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8407A6ED-736C-146E-06F5-0B4F79695C78" referredColumn="17E5FBF8-1EDE-5855-C82C-DAF8BB56FF8E"/>
+</associations>
+</Column>
+<Column name="Titular_nomeTitular" id="FB6061CB-B8AB-ED2C-D1E3-651CE43C7350">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>D0E0A1D1-84A8-CFD4-5813-703131B75BA6</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8407A6ED-736C-146E-06F5-0B4F79695C78" referredColumn="9C83567F-FBA2-97C9-B221-966C4CE62E9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DB808B8-E94F-5F1A-F85D-43B96589C90C" name="MensalidadeTitular_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>7533F310-8FED-8CBB-68F0-7CE17D34A2AD</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D030EF02-13EB-9DDD-0897-ED39EE8A1425"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8CF7C99-0092-8661-5CB2-E5FEF473589E" name="MensalidadeTitular_Titular_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>9913F361-68F4-BC61-9E76-C53BFD8F397F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B66CA43C-D286-71E6-0C0A-D1E6EADAC94A"/>
+<colUsage columnID="FB6061CB-B8AB-ED2C-D1E3-651CE43C7350"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

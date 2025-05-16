@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A73DAB99-5EFB-D8C8-52BC-BE7D5BB90973" name="GrauParentescoDependente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>C56A9827-91AB-A344-F89C-C618F69B558F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="grauParentesco" id="00F94335-AA1A-842C-0C9A-91DC98A148BD">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>DA16825B-3556-18A7-E451-233D2BDA4050</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dependente_cpfDependente" id="2A9419AA-E1B0-2BD8-F543-2FFDFDFFD61A">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>AA1825D5-8C51-F1CC-B270-6B03D190FC08</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04CACF27-A209-F0D9-4AFD-55CF8734B057" referredColumn="D2C359CB-C941-1A51-5562-9EC1858FBF8C"/>
+</associations>
+</Column>
+<Column name="Dependente_nomeDependente" id="3F186FB9-1B41-0A75-0F2C-D17D6A87E13A">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>498F7583-79EF-CEF7-3279-20ABF432DE99</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04CACF27-A209-F0D9-4AFD-55CF8734B057" referredColumn="226EF2C7-ED93-CB19-5112-1879CF90B2F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DAB4BCD-9374-DEF3-29D4-8ADBFA82271F" name="GrauParentescoDependente_Dependente_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>2F1BB618-9601-54D2-EDD7-385420776B65</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A9419AA-E1B0-2BD8-F543-2FFDFDFFD61A"/>
+<colUsage columnID="3F186FB9-1B41-0A75-0F2C-D17D6A87E13A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

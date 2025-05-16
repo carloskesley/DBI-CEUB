@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C56A9827-91AB-A344-F89C-C618F69B558F" name="GrauParentescoDependente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:42:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="grauParentesco" id="DA16825B-3556-18A7-E451-233D2BDA4050">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:42:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="AA1825D5-8C51-F1CC-B270-6B03D190FC08">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:53:10 UTC</createdTime>
+<generatorID>2F1BB618-9601-54D2-EDD7-385420776B65</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<referedAttribute>64289505-BDA6-8646-4FC3-5ED36D3C2C7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="498F7583-79EF-CEF7-3279-20ABF432DE99">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:53:10 UTC</createdTime>
+<generatorID>2F1BB618-9601-54D2-EDD7-385420776B65</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<referedAttribute>1EB6EF40-29F7-1ACC-C5A3-83E3F4F028DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6CB5AA2-82D1-4C37-046B-DAE3D7788B2D" name="EnderecoTitular">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>8B1099AB-D481-E627-D1AC-FB1DE742DC5B</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfTitular" id="F92C7FB0-8EE5-F737-62BB-09EE4B5DE4D4">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>283A4CA7-0D78-C1C2-514B-38772011E4AE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoTitular" id="75F21B21-C0C3-327E-A25C-A9509E4EFC61">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>F7E74860-83D3-7628-07CB-5D1F7AC77145</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroTitular" id="7B70E384-2E8E-DB5E-C6A0-A1CE36CDABBA">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>9D70EFC3-7B63-146B-BB48-E0387B897E03</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CepTitular" id="6322A56F-162F-6F7C-EA48-D03CD5CE86D1">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>434E6FDD-1F5B-CEE9-9D7D-AEE760FD7EF1</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufTitular" id="73BB08AE-1063-4D03-9E59-40867D30F7DC">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>3CD8C897-31C5-327D-0914-71C1CDED2A84</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titular_cpfTitular" id="5207796A-56A4-F132-4701-CA43549DDED5">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>ACA10E7A-7054-25A2-4EA7-8FBCF5C0718D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C771C9FE-3C2E-547E-0DE9-93FAD874B3A7" referredColumn="17E5FBF8-1EDE-5855-C82C-DAF8BB56FF8E"/>
+</associations>
+</Column>
+<Column name="Titular_nomeTitular" id="323DA331-F17A-4C30-5BCD-EE4B8EBC84C0">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>30B3935F-7D2F-AE48-EFD6-10E47706F0A7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C771C9FE-3C2E-547E-0DE9-93FAD874B3A7" referredColumn="9C83567F-FBA2-97C9-B221-966C4CE62E9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F515F366-C7D6-95CB-4E09-23BBD3C126DE" name="EnderecoTitular_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>A2164004-6AFF-4C78-6A71-7A9E63EECEC1</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F92C7FB0-8EE5-F737-62BB-09EE4B5DE4D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B27222B-B7F5-FA85-E483-7C1BA03736EB" name="EnderecoTitular__IDX">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4FD855D4-111E-7186-577A-D524616DF9E8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5207796A-56A4-F132-4701-CA43549DDED5"/>
+<colUsage columnID="323DA331-F17A-4C30-5BCD-EE4B8EBC84C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7FC787A-6B3E-AC1E-DC99-DB0CFD8AEF41" name="EnderecoTitular_Titular_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>4FD855D4-111E-7186-577A-D524616DF9E8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5207796A-56A4-F132-4701-CA43549DDED5"/>
+<colUsage columnID="323DA331-F17A-4C30-5BCD-EE4B8EBC84C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

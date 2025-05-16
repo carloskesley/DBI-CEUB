@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E71A9997-30C8-B1EE-AF49-7EE528C0158F" name="Titular">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>2B1715EF-BBA6-3F75-C10A-1F9D936B4204</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfTitular" id="17E5FBF8-1EDE-5855-C82C-DAF8BB56FF8E">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>A46D4879-381D-6327-AC01-5C49A176400D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeTitular" id="9C83567F-FBA2-97C9-B221-966C4CE62E9D">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>244785A7-B4BC-B490-7FD0-58A459DD4404</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimentoTitular" id="F1FB177F-2BF1-DD99-419B-C74817F49241">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>D72DFCD3-3CD6-1C5A-899A-5C71BC5AD774</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnderecoTitular_cpfTitular" id="ADA546AD-7337-0F8A-213A-74631DFDDD31">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>95C06017-DD33-D65D-2096-718436A98F40</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="476AC4EF-3539-B69A-CA00-A44FBA0F390E" referredColumn="F92C7FB0-8EE5-F737-62BB-09EE4B5DE4D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94B9765C-A90B-754A-B335-ADD4EF02ABDA" name="Titular_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>256BD9E8-E7D0-6066-9CA7-ACDB70D46D19</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17E5FBF8-1EDE-5855-C82C-DAF8BB56FF8E"/>
+<colUsage columnID="9C83567F-FBA2-97C9-B221-966C4CE62E9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23C6567A-A939-0E12-72D7-BA4E90B5EE43" name="Titular__IDX">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4FD855D4-111E-7186-577A-D524616DF9E8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="ADA546AD-7337-0F8A-213A-74631DFDDD31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6620294-A01A-B5EB-C57E-FBAAC03B1ACB" name="Titular_EnderecoTitular_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>4FD855D4-111E-7186-577A-D524616DF9E8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADA546AD-7337-0F8A-213A-74631DFDDD31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

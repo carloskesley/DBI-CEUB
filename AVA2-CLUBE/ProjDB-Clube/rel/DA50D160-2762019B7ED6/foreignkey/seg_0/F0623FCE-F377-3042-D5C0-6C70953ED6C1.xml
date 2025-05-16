@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F0623FCE-F377-3042-D5C0-6C70953ED6C1" containerWithKeyObject="98185A81-24E9-92D5-D985-F05C48805C9C" localFKIndex="4438F9FD-088E-8901-956A-80F30CF4A53F" name="TelefonesTitular_Titular_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>7BAB7577-6860-672E-5DF9-3B099D7BE7E2</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referredTableLongName>Titular</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E71A9997-30C8-B1EE-AF49-7EE528C0158F</referredTableID>
+<keyObject>94B9765C-A90B-754A-B335-ADD4EF02ABDA</keyObject>
+<referredKeyID>94B9765C-A90B-754A-B335-ADD4EF02ABDA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpfTitular,nomeTitular</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

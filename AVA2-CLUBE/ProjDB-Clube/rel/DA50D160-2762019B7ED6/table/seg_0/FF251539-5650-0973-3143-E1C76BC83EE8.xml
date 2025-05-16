@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF251539-5650-0973-3143-E1C76BC83EE8" name="telefonesDependente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>7DA762CB-68CA-F3CB-CDB8-6029971B5292</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfDependente" id="D5DFEF3A-6EB0-3CDE-5DED-914EF1C5DCE0">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>43C366BB-F02B-5412-7CEE-845E46538BF0</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneResidencialDependente" id="2319D61F-DFA3-3E09-A092-10F01D51E900">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>05ADE2A8-A340-4C72-5B88-2EC30B8E666D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneComercialDependente" id="6801470D-17AA-4BA2-A88E-0E15C8637F81">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>E1969271-9179-B535-9973-C9B3F1665E4E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dependente_cpfDependente" id="A2A91897-583E-A5BB-4229-41D97E0E1E6C">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>3AB94EC1-F329-2051-DC67-FA63782449D3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C7B3709-72D4-D2B6-C278-0373112E019B" referredColumn="D2C359CB-C941-1A51-5562-9EC1858FBF8C"/>
+</associations>
+</Column>
+<Column name="Dependente_nomeDependente" id="702C4C98-7462-6BA7-EA25-3A1183B2D2B3">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>9F68426B-F781-ADCE-8260-40C1D9C0BD9B</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C7B3709-72D4-D2B6-C278-0373112E019B" referredColumn="226EF2C7-ED93-CB19-5112-1879CF90B2F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FE29979-A79B-9AF0-49D7-74CC0CE56B8E" name="telefonesDependente_PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>FF21838E-9714-BB01-DEDC-5245657B1CE8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5DFEF3A-6EB0-3CDE-5DED-914EF1C5DCE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB26388D-3A36-27F9-43F8-7507CE8A2B04" name="telefonesDependente_Dependente_FK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:55:48 UTC</createdTime>
+<generatorID>5A8B2D2C-ACEE-CF30-9830-D794E7E637B3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2A91897-583E-A5BB-4229-41D97E0E1E6C"/>
+<colUsage columnID="702C4C98-7462-6BA7-EA25-3A1183B2D2B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

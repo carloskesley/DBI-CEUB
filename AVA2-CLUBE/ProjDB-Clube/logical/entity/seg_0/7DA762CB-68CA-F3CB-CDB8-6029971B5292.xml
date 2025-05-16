@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DA762CB-68CA-F3CB-CDB8-6029971B5292" name="telefonesDependente">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:28:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="43C366BB-F02B-5412-7CEE-845E46538BF0">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:28:20 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneResidencialDependente" id="05ADE2A8-A340-4C72-5B88-2EC30B8E666D">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:28:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneComercialDependente" id="E1969271-9179-B535-9973-C9B3F1665E4E">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:29:27 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente1" id="3AB94EC1-F329-2051-DC67-FA63782449D3">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:52:04 UTC</createdTime>
+<generatorID>5A8B2D2C-ACEE-CF30-9830-D794E7E637B3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<referedAttribute>64289505-BDA6-8646-4FC3-5ED36D3C2C7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="9F68426B-F781-ADCE-8260-40C1D9C0BD9B">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:52:04 UTC</createdTime>
+<generatorID>5A8B2D2C-ACEE-CF30-9830-D794E7E637B3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<referedAttribute>1EB6EF40-29F7-1ACC-C5A3-83E3F4F028DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF21838E-9714-BB01-DEDC-5245657B1CE8" name="telefonesDependente PK">
+<createdBy>carlos.ofernandes</createdBy>
+<createdTime>2025-05-15 23:28:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="DA50D160-6463-98E2-FF23-2762019B7ED6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43C366BB-F02B-5412-7CEE-845E46538BF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
